@@ -7,63 +7,63 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	let namae = conn.getName(m.sender)
 	const sections = [
 	{
-	title: "SELECCIONA TU EDAD AQUI!",
+	title: "SELECCIONA AQUI TUA IDADE !",
 	rows: [
-	    {title: "Años Random", rowId: '.reg ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	    {title: "Anos Random", rowId: '.reg ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
 	title: "ADULTO",
 	rows: [
-	    {title: "30 Años", rowId: '.reg ' + namae + '.30 '},
-	    {title: "29 Años", rowId: '.reg ' + namae + '.29 '},
-	    {title: "28 Años", rowId: '.reg ' + namae + '.28 '},
-	{title: "27 Años", rowId: '.reg ' + namae + '.27 '},
-	{title: "26 Años", rowId: '.reg ' + namae + '.26 '},
-	{title: "25 Años", rowId: '.reg ' + namae + '.25 '},
-	{title: "24 Años", rowId: '.reg ' + namae + '.24 '},
-	{title: "23 Años", rowId: '.reg ' + namae + '.23 '},
-	{title: "22 Años", rowId: '.reg ' + namae + '.22 '},
-	{title: "21 Años", rowId: '.reg ' + namae + '.21 '}
+	    {title: "30 Anos", rowId: '.reg ' + namae + '.30 '},
+	    {title: "29 Anos", rowId: '.reg ' + namae + '.29 '},
+	    {title: "28 Anos", rowId: '.reg ' + namae + '.28 '},
+	{title: "27 Anos", rowId: '.reg ' + namae + '.27 '},
+	{title: "26 Anos", rowId: '.reg ' + namae + '.26 '},
+	{title: "25 Anos", rowId: '.reg ' + namae + '.25 '},
+	{title: "24 Anos", rowId: '.reg ' + namae + '.24 '},
+	{title: "23 Anos", rowId: '.reg ' + namae + '.23 '},
+	{title: "22 Anos", rowId: '.reg ' + namae + '.22 '},
+	{title: "21 Anos", rowId: '.reg ' + namae + '.21 '}
 	]
     },
     {
-	title: "JOVEN",
+	title: "JOVEM",
 	rows: [
-	    {title: "20 Años", rowId: '.reg ' + namae + '.20 '},
-	    {title: "19 Años", rowId: '.reg ' + namae + '.19 '},
-	    {title: "18 Años", rowId: '.reg ' + namae + '.18 '},
-	{title: "17 Años", rowId: '.reg ' + namae + '.17 '},
-	{title: "16 Años", rowId: '.reg ' + namae + '.16 '},
-	{title: "15 Años", rowId: '.reg ' + namae + '.15 '},
-	{title: "14 Años", rowId: '.reg ' + namae + '.14 '},
-	{title: "13 Años", rowId: '.reg ' + namae + '.13 '},
-	{title: "12 Años", rowId: '.reg ' + namae + '.12 '},
-	{title: "11 Años", rowId: '.reg ' + namae + '.11 '},
-	{title: "10 Años", rowId: '.reg ' + namae + '.10 '},
-	{title: "9 Años", rowId: '.reg ' + namae + '.9 '}
+	    {title: "20 Anos", rowId: '.reg ' + namae + '.20 '},
+	    {title: "19 Anos", rowId: '.reg ' + namae + '.19 '},
+	    {title: "18 Anos", rowId: '.reg ' + namae + '.18 '},
+	{title: "17 Anos", rowId: '.reg ' + namae + '.17 '},
+	{title: "16 Anos", rowId: '.reg ' + namae + '.16 '},
+	{title: "15 Anos", rowId: '.reg ' + namae + '.15 '},
+	{title: "14 Anos", rowId: '.reg ' + namae + '.14 '},
+	{title: "13 Anos", rowId: '.reg ' + namae + '.13 '},
+	{title: "12 Anos", rowId: '.reg ' + namae + '.12 '},
+	{title: "11 Anos", rowId: '.reg ' + namae + '.11 '},
+	{title: "10 Anos", rowId: '.reg ' + namae + '.10 '},
+	{title: "9 Anos", rowId: '.reg ' + namae + '.9 '}
 	]
     },
 ]
 
 const listMessage = {
-  text: `┆ᴘᴏʀ ғᴀᴠᴏʀ sᴇʟᴇᴄᴄɪᴏɴᴀ ᴛᴜ ᴇᴅᴀᴅ ᴘᴜʟsᴀɴᴅᴏ ᴇʟ ʙᴏᴛᴏɴ...\n┆ᴛᴜ ɴᴏᴍʙʀᴇ: ${conn.getName(m.sender)}\n┆ǫᴜɪᴇʀᴇs ᴘᴏɴᴇʀ ᴏᴛʀᴏ ᴍᴏᴍʙʀᴇ?\n┆ᴇsᴄʀɪʙɪ *${usedPrefix + command} Nombre.Años*\n╰──────•◈•───────╯`,
+  text: `┆Por favor selecione clicando no botao...\n┆SEU NOME: ${conn.getName(m.sender)}\n┆QUERES OUTRO NOME?\n┆ESCREVA *${usedPrefix + command} NOME.IDADE*\n╰──────•◈•───────╯`,
   footer: global.wm,
   title: "╭──────• ʀᴇɢɪsᴛʀᴏ •──────╮",
-  buttonText: "Pulsa Aqui!",
+  buttonText: "Clique Aqui!",
   sections
 }
 
   let user = global.db.data.users[m.sender]
-  if (user.registered === true) throw `✳️ʏᴀ ᴇsᴛᴀ ʀᴇɢɪsᴛʀᴀᴅᴏ(ᴀ)!!\nsɪ ǫᴜɪᴇʀᴇ ᴀɴᴜʟᴀʀ sᴜ ʀᴇɢɪsᴛʀᴏ ᴜsᴇ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ\n*${usedPrefix}unreg numero de serie*\nsɪ ɴᴏ ʀᴇᴄᴜᴇʀᴅᴀ sᴜ ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ ᴜsᴇ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ\n*${usedPrefix}myns*`
+  if (user.registered === true) throw `✳️ja ᴇsᴛᴀ ʀᴇɢɪsᴛʀᴀᴅᴏ(ᴀ)!!\nsɪ ǫᴜɪᴇʀᴇ ᴀɴᴜʟᴀʀ seu ʀᴇɢɪsᴛʀᴏ ᴜsᴇ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ\n*${usedPrefix}unreg numero de serie*\nse ɴaᴏ recorda seᴜ ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ ᴜsᴇ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ\n*${usedPrefix}myns*`
   if (!Reg.test(text)) return conn.sendMessage(m.chat, listMessage, m)
   let [_, name, splitter, age] = text.match(Reg)
-  if (!name) throw 'El nombre no puede esta vacio'
-  if (!age) throw 'La edad no puede esta vacia (Numeros)'
+  if (!name) throw 'O nome nao pode estar vazio'
+  if (!age) throw 'A idade nao pode estar vazia (Numeros)'
   age = parseInt(age)
-  if (age > 100) throw 'Que viejo (。-`ω´-)'
-  if (age < 5) throw '🚼  Basado, los bebes saber escribir.✍️😳'
-  if (name.length >= 30) throw '🐈 Fua que basado, el nombre es muy largo que quiere un puente como nombre😹' 
+  if (age > 100) throw 'Que velho (。-`ω´-)'
+  if (age < 5) throw '🚼  Infelizmente bebes nao se podem subscrever.✍️😳'
+  if (name.length >= 30) throw '🐈 Foi baseado nisso, o nome é muito longo que quer uma ponte como nome😹' 
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
@@ -73,17 +73,17 @@ const listMessage = {
 global.db.data.users[m.sender].limit += 5
 global.db.data.users[m.sender].exp += 400
   let caption = `┏──━∞ *ʀᴇɢɪsᴛʀᴀᴅᴏ* ∞─━─┓
-┃ *ɴᴏᴍʙʀᴇ* 
+┃ *NOME* 
 ┃➠ ${name}
 ┃• • • • • • • • • • • • • • • • • • •
-┃ *ᴇᴅᴀᴅ*
-┃➠ ${age} años
+┃ *IDADE*
+┃➠ ${age} Anos
 ┃• • • • • • • • • • • • • • • • • • •
 ┃ *ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ*
 ┃➠ ${sn}
 ┗─━─━─━∞◆∞━─━─━─┛`
 //let author = global.author
-await conn.sendButton(m.chat, caption, `ᴛᴜ ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ ᴛᴇ sᴇʀᴠɪʀᴀ ᴇɴ ᴄᴀsᴏ ǫᴜᴇ ǫᴜɪᴇʀᴀ ʙᴏʀʀᴀʀ sᴜ ʀᴇɢɪsᴛʀᴏ\nᴇᴊᴇᴍᴘʟᴏ ${usedPrefix}unreg ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ\n${wm}`, [['ᴠᴇʀɪғᴀᴄᴀᴅᴏ(ᴀ)!! ✅', '/profile']], m)
+await conn.sendButton(m.chat, caption, `ᴛeᴜ ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ ᴛᴇ sᴇʀᴠɪʀᴀ ᴄᴀsᴏ ǫᴜɪᴇʀᴀ apagar seᴜ ʀᴇɢɪsᴛʀᴏ\nᴇxᴇᴍᴘʟᴏ ${usedPrefix}unreg ɴᴜᴍᴇʀᴏ ᴅᴇ sᴇʀɪᴇ\n${wm}`, [['ᴠᴇʀɪғᴀᴄᴀᴅᴏ(ᴀ)!! ✅', '/profile']], m)
 await m.reply(`${sn}`) 
 }
 handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')

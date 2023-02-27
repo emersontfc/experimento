@@ -21,7 +21,7 @@ say('NovaBot-MD', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`Bot simple con pocos comando`, {
+say(`Bot simples com poucos comandos`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -61,7 +61,7 @@ function start(file) {
   })
   p.on('exit', (_, code) => {
     isRunning = false
-    console.error('❎ Ocurrió un error inesperado:', code)
+    console.error('❎ Ocurreu um error inesperado:', code)
     if (code === 0) return
     watchFile(args[0], () => {
       unwatchFile(args[0])

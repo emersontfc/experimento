@@ -162,14 +162,14 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ Hola @user ¿COMO ESTAS?😃\n┆——————«•»——————\n┆ Bienvenido A @subject\n┆——————«•»——————\n┆un gusto conocerte amig@ 🤗\n┆Recuerda leer las reglas del grupo \n┆para no tener ningun problema 🧐\n┆——————«•»——————\n┆descripción:\n┆@desc\n┗◛◛◛◛◛◛◛◛◛◛◛◛┛'
+  conn.welcome = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ Olá @user, como vai?😃\n┆——————«•»——————\n┆ Bem-vindo a @subject\n┆——————«•»——————\n┆Prazer em conhecer-te meu amigo 🤗\n┆Lembre-se de ler as regras do grupo \n┆para não ter nenhum problema 🧐\n┆——————«•»——————\n┆descrição:\n┆@desc\n┗◛◛◛◛◛◛◛◛◛◛◛◛┛'
   conn.bye = '┏─━─━─━∞◆∞━─━─━─┓\n┆ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒\n┆ adiós @user se fue\n┆ los llama sus tios😂\n┗◛◛◛◛◛◛◛◛◛◛◛◛┛'
-  conn.spromote = '@user ahora eres admin del grupo'
-  conn.sdemote = '@user joderte ya no eres admin'
-  conn.sDesc = 'La descripción del grupo fue cambiada nueva descripción es\n@desc'
-  conn.sSubject = 'El nombre del grupo fue cambiado nuevos nombre es\n@subject'
-  conn.sIcon = 'la foto del grupo fue cambiada con éxito'
-  conn.sRevoke = 'nuevos link \n@revoke'
+  conn.spromote = '@user você agora é administrador do grupo'
+  conn.sdemote = '@user você não é mais administrador'
+  conn.sDesc = 'A descrição do grupo foi alterada, a nova descrição é\n@desc'
+  conn.sSubject = 'O nome do grupo foi alterado o novo nome é\n@subject'
+  conn.sIcon = 'a foto do grupo foi alterada com sucesso'
+  conn.sRevoke = 'novo link \n@revoke'
   conn.handler = handler.handler.bind(global.conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
   conn.groupsUpdate = handler.groupsUpdate.bind(global.conn)

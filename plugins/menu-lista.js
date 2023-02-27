@@ -25,7 +25,7 @@ let uptime = clockString(_uptime)
 
 const sections = [  
 {
-title: `ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ ✨ sᴇʟᴇᴄᴄɪᴏɴᴇs ᴀǫᴜɪ`,
+title: `cosmos-ᴍᴅ ✨ sᴇʟᴇᴄᴄɪᴏɴᴇs ᴀǫᴜɪ`,
 rows: [
        {title: "ɪɴғᴏ", description: "ᴘᴀʀᴀ ᴠᴇᴢ ᴇʟ ᴄᴜᴀɴᴛᴏs ɢʀᴜᴘᴏs ᴇsᴛᴀ ᴇʟ ʙᴏᴛ", rowId: `${usedPrefix}grouplist`},
         {title: "ᴄʀᴇᴀᴅᴏʀ", description: "ɴᴜᴍᴇʀᴏ ᴅᴇʟ ᴄʀᴇᴀᴅᴏʀ", rowId: `${usedPrefix}owner`},
@@ -43,7 +43,7 @@ let name = await conn.getName(m.sender)
 const listMessage = {
 text: `~ HOLA ${taguser}*`, footer: `
 ╭┄〔 ≪ •🌐• ≫ 〕┄⊱
-┆📡 ʙɪᴇɴᴠᴇɴɪᴅᴏ ᴀʟ ᴍᴇɴᴜ ʟɪsᴛᴀ
+┆📡 Bem vindo ᴀʟ ᴍᴇɴᴜ ʟɪsᴛᴀ
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 ┆🎁 ɪɴғᴏ  ᴅᴇʟ ʙᴏᴛ 🎁
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
@@ -61,7 +61,7 @@ text: `~ HOLA ${taguser}*`, footer: `
 ┆□ 💎 ᴅɪᴀᴍᴀɴᴛᴇs: ${diamond}
 ┆□ 🧰 ᴇxᴘᴇʀɪᴇɴᴄɪᴀ: ${exp}
 └────ׂ─ׂ─ׂ─ׂ─────
-*ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ ✨*`, pp,
+*cosmos-ᴍᴅ ✨*`, pp,
 title: null,
 buttonText: "🅗🅐🅖🅐 🅒🅛🅘🅒🅚 🅐🅠🅤🅘", 
 sections }
@@ -86,7 +86,7 @@ const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
 function ucapan() {
-  const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
+  const time = moment.tz('Africa/Maputo').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
   let res = `𝙱𝚄𝙴𝙽𝙾𝚂 𝙳𝙸𝙰𝚂 | 𝙶𝙾𝙾𝙳 𝙼𝙾𝚁𝙽𝙸𝙽𝙶`
   if (time >= 4) {
     res = `𝙱𝚄𝙴𝙽𝙾𝚂 𝙳𝙸𝙰𝚂 | 𝙶𝙾𝙾𝙳 𝙼𝙾𝚁𝙽𝙸𝙽𝙶`

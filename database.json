@@ -1,0 +1,207 @@
+{
+  "users": {
+    "120363044185906174@g.us": {
+      "exp": 46,
+      "diamond": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": {},
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "NOVATO(A) V",
+      "autolevelup": true,
+      "simi": false
+    },
+    "258866648586@s.whatsapp.net": {
+      "exp": 81,
+      "diamond": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "I robot",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 1,
+      "role": "NOVATO(A) V",
+      "autolevelup": true,
+      "simi": false
+    },
+    "258848858288@s.whatsapp.net": {
+      "exp": 726,
+      "diamond": 20,
+      "lastclaim": 0,
+      "registered": true,
+      "name": "Emerson",
+      "age": 22,
+      "regTime": 1677536523493,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 2,
+      "role": "NOVATO(A) V",
+      "autolevelup": true,
+      "simi": false,
+      "limit": null
+    },
+    "258879174360@s.whatsapp.net": {
+      "exp": 1,
+      "diamond": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Sihabudeen",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "NOVATO(A) V",
+      "autolevelup": true,
+      "simi": false
+    }
+  },
+  "chats": {
+    "120363044185906174@g.us": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiTraba": false,
+      "antiToxic": true,
+      "antiLink": false,
+      "viewonce": true,
+      "useDocument": false,
+      "onlyLatinos": false,
+      "nsfw": true,
+      "expired": 0
+    },
+    "258866648586@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiTraba": false,
+      "antiToxic": true,
+      "antiLink": false,
+      "viewonce": true,
+      "useDocument": false,
+      "onlyLatinos": false,
+      "nsfw": true,
+      "expired": 0
+    },
+    "258848858288@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiTraba": false,
+      "antiToxic": true,
+      "antiLink": false,
+      "viewonce": true,
+      "useDocument": false,
+      "onlyLatinos": false,
+      "nsfw": true,
+      "expired": 0
+    },
+    "status@broadcast": {
+      "isBanned": false,
+      "welcome": true,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiTraba": false,
+      "antiToxic": true,
+      "antiLink": false,
+      "viewonce": true,
+      "useDocument": false,
+      "onlyLatinos": false,
+      "nsfw": true,
+      "expired": 0
+    }
+  },
+  "stats": {
+    "menu-lista.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1677536538590,
+      "lastSuccess": 1677536538590
+    },
+    "s-ok.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1677536493213,
+      "lastSuccess": 1677536493213
+    },
+    "rg-register.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1677536524147,
+      "lastSuccess": 1677536524147
+    },
+    "gp-profile.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1677536536410,
+      "lastSuccess": 1677536536410
+    },
+    "menu-menus.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1677536560347,
+      "lastSuccess": 1677536560347
+    },
+    "nsfw-xnxxdl.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1677536631478,
+      "lastSuccess": 1677536631478
+    },
+    "downloader-play.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1677537401221,
+      "lastSuccess": 1677537401221
+    },
+    "downloader-yta.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1677537404840,
+      "lastSuccess": 1677537404840
+    }
+  },
+  "msgs": {},
+  "sticker": {},
+  "settings": {
+    "258866648586@s.whatsapp.net": {
+      "self": false,
+      "autoread": false,
+      "restrict": false,
+      "status": 1677537437753
+    }
+  }
+}

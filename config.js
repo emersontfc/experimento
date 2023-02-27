@@ -3,17 +3,14 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['5492266466080', 'NovaBot-MD', true],
-  ['593968585383'],
-  ['5214531173598'],
-  ['50763596565'],
-  ['522411347465']
+  ['258848858288', 'Cosmos-MD', true],
+  ['258846666288']
 ] //Numeros de owner 
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = ['50495745934'] 
-global.prems = ['595986172767', '5493704555464']
+global.mods = ['258848858288'] 
+global.prems = ['258848858288', '258846666288']
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -52,27 +49,27 @@ global.imagen1 = ['./media/menu1.jpg']
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 // Sticker WM
-global.packname = 'NovaBot-MD'
-global.author = 'NovaBot-MD'
+global.packname = 'Cosmos-MD'
+global.author = 'Cosmos-MD'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.fgig = 'https://github.com/elrebelde21/NovaBot-MD'
+global.fgig = 'https://github.com/unknow'
  
-global.yt = 'https://www.youtube.com/@TheLoliBot-MD'
+global.yt = 'https://www.youtube.com/@unknow'
 
-global.fgpyp = 'tiktok.com/@thelolibot_md'
+global.fgpyp = 'tiktok.com/@unknow'
 
-global.faceb = 'https://facebook.com/groups/872989990425789/'
+global.faceb = 'https://facebook.com/unknow'
 
 global.vs = '1.5.0'
 
-global.lb = 'ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ'
+global.lb = 'cosmos-ᴍᴅ'
 global.lolibot = lb
 
-global.dygp = 'https://chat.whatsapp.com/FfiQUYDDtaG9bwaI7UKMAR' //grupo del bot
+global.dygp = 'https://chat.whatsapp.com/KZL8mcsPXLBA91YNMBCN81' //grupo del bot
 
-global.nna = 'https://chat.whatsapp.com/JESaesjOEcB6wnGX0QYT9o' //UPDATE
+global.nna = 'https://chat.whatsapp.com/KZL8mcsPXLBA91YNMBCN81' //UPDATE
 
 global.fglog = 'https://telegra.ph/file/1861aab98389b13db8588.png' 
 
@@ -81,8 +78,8 @@ global.maxwarn = '4' // máxima advertencias
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.wm = 'ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ'
-global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
+global.wm = 'cosmos-ᴍᴅ'
+global.wait = '*⌛ Carregando..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
